@@ -2,6 +2,7 @@ version: '3'
 
 services:
   nginx-rtmp:
+    build: .
     image: gcslaoli/nginx-rtmp
     ports:
       - 1935:1935
